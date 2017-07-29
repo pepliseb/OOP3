@@ -10,6 +10,9 @@ public class Main {
         oskar.screamOnEmployee();
         System.out.println("IsHappy " + oskar.isHappy());
 
+
+
+
         Lecturer irek = new Lecturer("Irek","11111111", 1222);
         irek.getVoice();
 

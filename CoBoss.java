@@ -1,7 +1,7 @@
 public class CoBoss extends Boss {
 
     public CoBoss(String name, String id, int salary) {
-        super(name, id, salary);
+        super(name, id, salary, true);
     }
 
     @Override

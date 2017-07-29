@@ -5,9 +5,9 @@
 public class Boss extends Employee {
     private boolean isHappy;
 
-    public Boss(String name, String id, int salary) {
-        super(name, id, salary );
-    }
+//    public Boss(String name, String id, int salary) {
+//        super(name, id, salary );
+//    }
 
 
     public Boss(String name, String id, int salary, boolean isHappy) {
