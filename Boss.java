@@ -14,5 +14,7 @@ public class Boss extends Employee {
         System.out.println("Do roboty");
     }
 
-
+    public void screamOnEmployee(){
+        System.out.println("Krzykkkkkkkkkkkkkkkkkkkkk");
+    }
 }
