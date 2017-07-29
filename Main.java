@@ -5,15 +5,16 @@ public class Main {
         kuba.getVoice();
 
 
-        Boss oskar = new Boss("Oskar", "123444", 4566);
+        Boss oskar = new Boss("Oskar", "123444", 4566, true);
         oskar.getVoice();
         oskar.screamOnEmployee();
+        System.out.println("IsHappy " + oskar.isHappy());
 
         Lecturer irek = new Lecturer("Irek","11111111", 1222);
         irek.getVoice();
 
 //        polimorfizm
-        Employee michal = new Boss("Michał", "1212121212", 1111);
+        Employee michal = new Boss("Michał", "1212121212", 1111, false);
         michal.getVoice();
 
         CoBoss marta = new CoBoss("Marta","111111111111111", 121212);
