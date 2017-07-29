@@ -16,7 +16,11 @@ public class Main {
         Employee michal = new Boss("Michał", "1212121212", 1111);
         michal.getVoice();
 
-        Employee[] arrayOfEmployee = {oskar,michal,irek};
+        CoBoss marta = new CoBoss("Marta","111111111111111", 121212);
+
+
+
+        Employee[] arrayOfEmployee = {oskar,michal,irek, marta};
         for (Employee employee : arrayOfEmployee) {
             System.out.print("\n"+ employee.getName());
             System.out.print(" " + employee.getId());
